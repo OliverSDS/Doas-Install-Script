@@ -1,3 +1,16 @@
+# Doas
+doas and sudo are both tools used in Linux/Unix operating systems to run a program or command with root user privileges. doas is a newer tool and can be used similarly to sudo. Functionally, they both perform the same task. However, doas has some advantages:
+
+* Simple and Easy to Use: doas is easy to install and has a simple configuration. It has a simple and readable structure, making it easy to configure.
+
+* More Secure: The design goal of doas is to use the lowest privilege level necessary to perform specific tasks. This reduces the likelihood of malicious code or attackers intervening while performing privileged tasks.
+
+* Low Resource Usage: doas has a lighter structure and uses fewer resources. This provides an advantage in terms of performance and efficiency.
+
+* Effective Management: doas offers flexible options to manage which tasks users can perform. There are many options that can be configured to allow users to perform specific tasks or to be privileged for a specific period.
+
+In conclusion, doas can be considered more secure, simple, and lightweight than sudo. However, sudo is an older tool and has more widespread awareness due to being used by more users. Users choosing between doas or sudo will depend on their usage and needs.
+
 # Automating doas Setup with a Single Command
 This document explains how to automate the installation of doas on a Unix/Linux system using a single command.
 
