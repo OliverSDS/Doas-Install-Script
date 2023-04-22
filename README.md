@@ -1,4 +1,4 @@
-# Doas
+# Doas (Debian/Ubuntu)
 doas and sudo are both tools used in Linux/Unix operating systems to run a program or command with root user privileges. doas is a newer tool and can be used similarly to sudo. Functionally, they both perform the same task. However, doas has some advantages:
 
 * Simple and Easy to Use: doas is easy to install and has a simple configuration. It has a simple and readable structure, making it easy to configure.
