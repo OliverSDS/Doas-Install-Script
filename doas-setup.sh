@@ -10,5 +10,5 @@ sudo apt install -y doas
 echo "permit persist :wheel" | sudo tee -a /etc/doas.conf
 echo "permit nopass keepenv :$(whoami)" | sudo tee -a /etc/doas.conf
 # doas ln sudo
-doas mv /bin/sudo /bin/sudo_backup
-doas ln -s /bin/doas /bin/sudo
+# doas mv /bin/sudo /bin/sudo_backup
+# doas ln -s /bin/doas /bin/sudo
